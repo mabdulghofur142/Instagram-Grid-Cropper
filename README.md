@@ -83,8 +83,10 @@ Artinya: `cropped_<row>_<column>.jpg`
 
 - Rasio feed instagram yang diupload (format_upload_feed): **4:5** atau **1:1**
 - Gunakan grid **3 kolom** untuk hasil panorama (feed puzzle)
-- Gunakan input gambar besar yang sesuai dengan ukuran (jika targetnya adalah M baris N kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **Nx3:Mx4**). Contoh jika targetnya adalah 2 baris 3 kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **3x3:2x4** = **9:8**, sehingga gunakan gambar dengan rasio 9:8 (e.g 3375x3000, 6750x6000, etc)
-- Bisa dikombinasikan dengan Canva, Photoshop, atau CapCut untuk efek lebih lanjut
+- Gunakan input gambar besar yang sesuai dengan ukuran (jika targetnya adalah M baris N kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **Nx3:Mx4**). Contoh:
+    - Jika targetnya adalah 1 baris 3 kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **3x3:1x4** = **9:4**, sehingga gunakan gambar dengan rasio 9:4 (e.g 3375x1500, 6750x3000, etc)
+    - Jika targetnya adalah 2 baris 3 kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **3x3:2x4** = **9:8**, sehingga gunakan gambar dengan rasio 9:8 (e.g 3375x3000, 6750x6000, etc)
+    - Jika targetnya adalah 3 baris 3 kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **3x3:3x4** = **3:4**, sehingga gunakan gambar dengan rasio 3:4 (e.g 1125x1500, 3375x4500, etc)
 
 ---
 

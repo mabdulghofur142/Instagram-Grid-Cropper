@@ -48,8 +48,8 @@ if __name__ == '__main__':
         coloms=coloms,
         rows=rows,
         output_zip_path=output_zip_name,
-        to_format="4/5",     # Target rasio carousel Instagram
-        from_format="3/4"    # Rasio asli gambar
+        format_upload_feed="4/5",     # Target rasio carousel Instagram
+        format_preview="3/4"    # Rasio asli gambar tiap bagian dan rasio preview
     )
 ```
 
@@ -158,8 +158,8 @@ if __name__ == '__main__':
         coloms=coloms,
         rows=rows,
         output_zip_path=output_zip_name,
-        to_format="4/5",     # Instagram carousel upload format
-        from_format="3/4"    # Original image ratio
+        format_upload_feed="4/5",     # Instagram carousel upload format
+        format_preview="3/4"    # Original image part ratio and preview layout
     )
 ```
 

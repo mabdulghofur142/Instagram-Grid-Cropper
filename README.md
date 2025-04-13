@@ -96,9 +96,9 @@ Artinya: `cropped_<row>_<column>.jpg`
 
 ## 📁 Contoh Hasil
 
-| Input Image | Output Grid (3x1) |
-|-------------|------------------|
-| ![Input](example_input.jpg) | ![Output](example_output_grid.jpg) |
+| Input Image | Without this tool (3x3) | Output Grid (3x3) |
+|-------------|------------------|------------------|
+| ![Input](example_input.jpg) | ![Output](example_output_grid.jpg) | ![Output](example_output_grid.jpg) |
 
 ---
 

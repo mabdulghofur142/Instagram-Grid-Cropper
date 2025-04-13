@@ -1,6 +1,7 @@
 - 🇮🇩 [Bahasa Indonesia](#versi-bahasa-indonesia)
 - 🇬🇧 [English Version](#english-version)
 
+## 🇮🇩 Versi Bahasa Indonesia
 # 📸 Instagram Grid Cropper with Framing & Mirrored Edges
 
 **Instagram Grid Cropper** adalah script Python untuk memotong gambar besar menjadi beberapa bagian (1x3, 2x3, 3x3, dst) yang sesuai untuk diunggah sebagai feed Instagram, lengkap dengan tambahan frame dan efek mirrored edge agar tampil lebih estetik dan profesional pada preview instagram.
@@ -110,8 +111,7 @@ Lisensi: **MIT License**
 ---
 
 ---
-**English Version**
-
+## 🇬🇧 English Version
 # 📸 Instagram Grid Cropper with Framing & Mirrored Edges
 
 **Instagram Grid Cropper** is a Python script that splits a large image into smaller segments (e.g. 1x3, 2x3, 3x3, etc.) suitable for Instagram feed uploads. It automatically adds framing and mirrored edges for a cleaner, more aesthetic look in Instagram’s preview grid.

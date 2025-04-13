@@ -39,10 +39,10 @@ pip install pillow
 ### 2. Jalankan Script
 ```python
 if __name__ == '__main__':
-    input_image_path = '/path/to/your/image.png'
-    output_zip_name = 'hasil_crop.zip'
-    coloms = 3
-    rows = 2
+    input_image_path = '/path/to/your/image.png' # path dari gambar yang ingin diproses
+    output_zip_name = 'hasil_crop.zip' # Nama zip yang ingin digunakan
+    coloms = 3 # jumlah kolom
+    rows = 2 # jumlah baris
     process_image(
         input_path=input_image_path,
         coloms=coloms,

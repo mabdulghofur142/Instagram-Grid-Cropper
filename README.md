@@ -206,9 +206,9 @@ Meaning: `cropped_<row>_<column>.jpg`
 
 ## 📁 Output Example
 
-| Input Image | Output Grid (3x1) |
-|-------------|------------------|
-| ![Input](example_input.jpg) | ![Output](example_output_grid.jpg) |
+| Input Image | Without this tool (3x3) | Output Grid (3x3) |
+|-------------|------------------|------------------|
+| ![Input](Image/example%203x3%20(3375%20x%204500%20piksel).png)%20| ![Output](Image/Post%20without%20this%20code/Post%202.png)| ![Output](Image/Ouput/Post%20Ouput%202.png) |
 
 ---
 

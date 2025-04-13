@@ -4,6 +4,8 @@
 # 📸 Instagram Grid Cropper with Framing & Mirrored Edges
 ## Versi Bahasa Indonesia
 
+Instagram telah melakukan update baru yang mengubah rasio preview postingan **1:1** menjadi **3:4**, namun Instagram tidak bisa mengunggah postingan rasio ini secara langsung, hanya ukuran **1:1** atau **4:5**. Akibatnya untuk sebuah poster/gambar besar yang diunggah sebagai **feed Instagram** secara terpisah (feed puzzle) perlu penyesuaian agar _puzzle_ yang diunggah tetap menampilkan poster/gambar yang sempurna. 
+
 **Instagram Grid Cropper** adalah script Python untuk memotong gambar besar menjadi beberapa bagian (1x3, 2x3, 3x3, dst) yang sesuai untuk diunggah sebagai feed Instagram, lengkap dengan tambahan frame dan efek mirrored edge agar tampil lebih estetik dan profesional pada preview instagram.
 
 ---
@@ -114,7 +116,10 @@ Lisensi: **MIT License**
 ## English Version
 # 📸 Instagram Grid Cropper with Framing & Mirrored Edges
 
-**Instagram Grid Cropper** is a Python script that splits a large image into smaller segments (e.g. 1x3, 2x3, 3x3, etc.) suitable for Instagram feed uploads. It automatically adds framing and mirrored edges for a cleaner, more aesthetic look in Instagram’s preview grid.
+Instagram has recently updated its preview ratio for posts from **1:1** to **3:4**. However, Instagram still does not support uploading images in this new preview ratio directly — only **1:1** and **4:5** are accepted. As a result, large posters intended to be uploaded as a separate Instagram feed (a feed puzzle) require adjustment to ensure the full poster appears correctly in the grid preview.
+
+**Instagram Grid Cropper** is a Python script that slices a large image into multiple parts (1x3, 2x3, 3x3, etc.) tailored for uploading as an Instagram feed. It includes automatic framing and mirrored-edge effects to maintain a clean, aesthetic, and professional appearance in the Instagram grid preview.
+
 
 ---
 

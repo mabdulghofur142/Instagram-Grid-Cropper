@@ -1,6 +1,6 @@
 # 📸 Instagram Grid Cropper with Framing & Mirrored Edges
 
-**Instagram Grid Cropper** adalah script Python untuk memotong gambar besar menjadi beberapa bagian (1x3, 2x3, 3x3, dst) yang sesuai untuk diunggah sebagai carousel Instagram, lengkap dengan tambahan frame dan efek mirrored edge agar tampil lebih estetik dan profesional.
+**Instagram Grid Cropper** adalah script Python untuk memotong gambar besar menjadi beberapa bagian (1x3, 2x3, 3x3, dst) yang sesuai untuk diunggah sebagai feed Instagram, lengkap dengan tambahan frame dan efek mirrored edge agar tampil lebih estetik dan profesional pada preview instagram.
 
 ---
 
@@ -15,7 +15,12 @@
 
 ## 🧩 Contoh Kasus Penggunaan
 
-> Kamu punya 1 gambar besar berukuran 3:4, lalu ingin membaginya menjadi 3 post carousel 4:5 untuk Instagram. Tool ini akan secara otomatis memotong, memberi padding, dan menghasilkan gambar yang sesuai.
+> Kamu memiliki satu gambar besar yang ingin dipotong menjadi 6 bagian dalam format 2 baris dan 3 kolom (2x3), agar bisa diunggah sebagai **feed Instagram** terpisah (feed puzzle). Sehingga tiap bagian gambar memiliki rasio **3:4**, namun Instagram tidak mendukung rasio ini secara langsung. Untuk itu, tool ini akan secara otomatis:
+>
+> - Memotong gambar menjadi bagian-bagian kecil sesuai layout,
+> - Menyesuaikan rasio ke **4:5** (rasio preview Instagram),
+> - Menambahkan padding (cermin/pinggiran) agar konten tetap utuh,
+> - Menghasilkan gambar-gambar siap unggah yang tampil **presisi di preview feed Instagram**.
 
 ---
 
@@ -56,8 +61,8 @@ Memproses gambar utama menjadi potongan grid siap pakai untuk carousel Instagram
 - `coloms` *(int)*: Jumlah kolom untuk membagi gambar (biasanya 1, 2, atau 3).
 - `rows` *(int)*: Jumlah baris pemotongan.
 - `output_zip_path` *(str)*: Nama file .zip untuk menyimpan hasil.
-- `to_format` *(str)*: Rasio target Instagram carousel (default: `"4/5"`).
-- `from_format` *(str)*: Rasio asli gambar (default: `"3/4"`).
+- `format_upload_feed` *(str)*: Rasio target Instagram carousel (default: `"4/5"`).
+- `format_preview` *(str)*: Rasio asli gambar tiap bagian dan rasio preview (default: `"3/4"`).
 
 ---
 
@@ -76,9 +81,9 @@ Artinya: `cropped_<row>_<column>.jpg`
 
 ## 🖼️ Tips Tambahan
 
-- Rasio Instagram carousel ideal: **4:5**
-- Rasio foto portrait biasa: **3:4**
+- Rasio feed instagram yang diupload (format_upload_feed): **4:5** atau **1:1**
 - Gunakan grid **3 kolom** untuk hasil panorama (feed puzzle)
+- Gunakan input gambar yang sesuai dengan ukuran (jika targetnya adalah M baris N kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **Nx3:Mx4**). Contoh jika targetnya adalah 2 baris 3 kolom dengan format preview instagram adalah **3:4**, maka rasio gambar yang digunakan **3x3:2x4** = **9:8**, sehingga gunakan gambar dengan rasio 9:8 (e.g 3375x3000, 6750x6000, etc)
 - Bisa dikombinasikan dengan Canva, Photoshop, atau CapCut untuk efek lebih lanjut
 
 ---
